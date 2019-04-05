@@ -3,7 +3,7 @@
 <html>
 <head>
 	<title>
-		JS Rocket
+		JS fly Rocket
 	</title>
 	<script type="text/javascript">
 			var car = {
@@ -12,13 +12,24 @@
 				color: 'blue',
 				isTurnedOn: false,
 				numberOfWheels: 4,
-				seats: ['seat 1', 'seat 2', 'seat 3' 'seat 4'],
+				seats: ['seat 1',
+						'seat 2',
+						'seat 3',
+						'seat 4'],
+
+				turnOn: function () {
+					this.isTurnedOn = true;
+				}
+
+				fly: function () {
+					alert("fly");
+				}
 			};
 
 
 		</script>
 </head>
 <body>
-<h1>JS Rocket</h1>
+<h1>JS fly Rocket</h1>
 </body>
 </html>
