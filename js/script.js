@@ -9,8 +9,12 @@ var car = {
 						'seat 3',
 						'seat 4'],
 
+				fly: function(){ alert("fly")},
+
 			
 			turnon: function (){
+
+
 
 				this.isTurnedOn = true;
 			}
